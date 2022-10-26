@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  background-color: lightsalmon;
+  margin: 0;
+  padding: 0;
+  
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.App .header {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.header h1 {
+  background-color: black;
+  color: white;
+}
+
+.month-year {
+  margin: 10px;
+}
+
+.recharts-wrapper .recharts-surface {
+  background-color: white;
+}
+
+.recharts-legend-wrapper .recharts-default-legend {
+  background-color: white;
+}
+
+.recharts-legend-wrapper .recharts-legend-item {
+  background-color: white;
+}
+
+.recharts-legend-icon {
+  background-color: white;
+}
+
+.recharts-legend-item-text {
+  background-color: white;
+}
+
+.recharts-tooltip-wrapper {
+  background-color: white;
+}
+
+.recharts-tooltip-wrapper-right {
+  background-color: white;
+}
+
+.recharts-tooltip-wrapper-bottom {
+  background-color: white;
+}
+
+.recharts-default-tooltip * {
+  background-color: white;
+}
+
+.recharts-tooltip-label {
+  background-color: white;
+}
+
+.swal2-popup * {
+  background-color: white;
+} 
+/* .swal2-modal * {
+  background-color: white;
+} */
+/* .swal2-icon-error * {
+  background-color: white;
+} */
+/* .swal2-show * {
+  background-color: white;
+} */
+
+.swal2-success-line-tip {
+  color: aqua;
+}
+
+.swal2-x-mark {
+  border-radius: 50%;
+}
+
+.edit {
+  cursor: pointer;
+}
+
+.delete {
+  cursor: pointer;
+}
